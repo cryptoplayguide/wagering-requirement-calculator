@@ -1,5 +1,7 @@
 # wagering-requirement-calculator
 
+> **Try it in your browser:** [https://cryptoplay.guide/tools/wagering-requirement-calculator/](https://cryptoplay.guide/tools/wagering-requirement-calculator/) — free, runs client-side, no sign-up. 18+, for education only.
+
 Small, zero-dependency JavaScript package for bonus rollover cost and a seedable Monte Carlo estimate of completion probability. Node.js 18+ ESM; the pure library functions also work in browsers.
 
 For background on contribution rates and rollover terms, see the [crypto casino wagering requirements guide](https://cryptoplay.guide/guides/crypto-casino-wagering-requirements/).
