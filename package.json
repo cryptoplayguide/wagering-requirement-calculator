@@ -1,0 +1,20 @@
+{
+  "name": "wagering-requirement-calculator",
+  "version": "1.0.0",
+  "description": "Dependency-free bonus rollover cost and seedable completion probability estimates",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": "./src/index.js",
+  "bin": {
+    "wagering-requirement-calculator": "./bin/wagering-requirement-calculator.js"
+  },
+  "files": ["src/", "bin/", "README.md", "LICENSE"],
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["wagering", "rollover", "bonus", "monte-carlo"]
+}
